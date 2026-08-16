@@ -1,0 +1,10 @@
+select*from emp;
+select ename from emp;
+select ename,sal from emp;
+select ename,comm from emp;
+select empno,deptno from emp;
+select ename,hiredate from emp;
+select ename,job from emp;
+select ename,job,sal from emp;
+select dname from dept;
+select dname,loc from dept;
