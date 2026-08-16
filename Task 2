@@ -1,0 +1,15 @@
+select ename sal,sal*12 AS annual_salary from emp where ename="smith";
+select ename from emp where job="clerk";
+select  ename,sal from emp where job="Salesman";
+select*from emp where sal>2000;
+select *from emp where ename="JONES";
+select *from emp where hiredate>01-01-81;
+select ename,sal,sal*12 AS annual_salary from emp where sal*12>12000;
+select empno from emp where deptno=30;
+select ename, hiredate from emp where hiredate < '1981-01-01';
+select*from emp where job="manager";
+select ename,sal from emp where comm=1400;
+select*from emp where comm>=sal;
+select empno from emp where hiredate >87;
+select *from emp where job="analyst";
+select *from emp where sal>2000;
